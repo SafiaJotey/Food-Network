@@ -181,7 +181,7 @@ footer p{
 @media only screen and (max-width: 768px) {
     
     .navbar{
-        margin-bottom: 160px;
+        margin-bottom: 360px;
 
     }
 
@@ -192,7 +192,8 @@ footer p{
      margin-bottom:10px;
     }
     .nav-area .logo{
-        width:40%;
+        width:30%;
+        margin-top:500px ;
        
     }
     .menu{
@@ -249,18 +250,13 @@ footer p{
   @media only screen and (max-width: 480px) {
     
     .navbar{
-        margin-bottom: 160px;
+        margin-bottom: 360px;
 
     }
 
-    .nav-area{
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     margin-bottom:10px;
-    }
+    
     .nav-area .logo{
-        width:50%;
+        width:30%;
        
     }
     .menu{
@@ -280,16 +276,10 @@ footer p{
     .half-width{
         
         width: 90%;
-        margin: 15% 0;
-        text-align: center;
+        
     }
 
-    .about{
-        
-        background-position: top center;
-        background-size: cover;
-       
-    }
+    
 
     .recipie_details{
         width: 80%;
@@ -300,16 +290,13 @@ footer p{
 
     .one-third-width{
         width:78%;
-        margin:20px 10px;
+        
         
        
 
 
     }
 
-    .recipie .details{
-        margin: 5px;
-    }
     
   }
     
