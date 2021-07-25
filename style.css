@@ -115,6 +115,7 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .recipie_details{
     width: 50%;
@@ -136,8 +137,10 @@ p{
 .one-third-width .card img{
     width:100%;
     
+    
   
 }
+.details
 
 /* Followers section css*/
 
@@ -172,3 +175,141 @@ footer p{
     margin-bottom: 20px;
     font-size: 16px;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    .navbar{
+        margin-bottom: 160px;
+
+    }
+
+    .nav-area{
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin-bottom:10px;
+    }
+    .nav-area .logo{
+        width:40%;
+       
+    }
+    .menu{
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom:10px;
+    }
+
+    .section-area{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .half-width{
+        
+        width: 70%;
+        margin: 15% 0;
+        text-align: center;
+    }
+
+    .about{
+        
+        background-position: top center;
+        background-size: cover;
+       
+    }
+
+    .recipie_details{
+        width: 80%;
+        
+    }
+
+   
+
+    .one-third-width{
+        width:58%;
+        margin:20px 10px;
+        
+       
+
+
+    }
+
+    .recipie .details{
+        margin: 5px;
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 480px) {
+    
+    .navbar{
+        margin-bottom: 160px;
+
+    }
+
+    .nav-area{
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin-bottom:10px;
+    }
+    .nav-area .logo{
+        width:50%;
+       
+    }
+    .menu{
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom:10px;
+    }
+
+    .section-area{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .half-width{
+        
+        width: 90%;
+        margin: 15% 0;
+        text-align: center;
+    }
+
+    .about{
+        
+        background-position: top center;
+        background-size: cover;
+       
+    }
+
+    .recipie_details{
+        width: 80%;
+        
+    }
+
+   
+
+    .one-third-width{
+        width:78%;
+        margin:20px 10px;
+        
+       
+
+
+    }
+
+    .recipie .details{
+        margin: 5px;
+    }
+    
+  }
+    
